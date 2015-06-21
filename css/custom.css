@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#container {
+    background-color: #3ad7ee;
+    min-height: 600px;
+    padding: 230px 0;
+}
+
+#bug {
+    width: 282px;
+    height: 220px;
+    margin: 2% auto;
+    background: url('../images/sprite.png') left center;
+    animation: play .6s steps(11) infinite;
+
+}
+
+@keyframes play {
+    0% {background-position: -3102px; }
+    100% {background-position: 0px; }
+
+}
+
+@-webkit-keyframes play {
+    0% {background-position: -3102px; }
+    100% {background-position: 0px; }
+
+}
